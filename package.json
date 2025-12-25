@@ -9,6 +9,10 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@ffmpeg/core": "^0.12.10",
+    "@ffmpeg/ffmpeg": "^0.12.15",
+    "@ffmpeg/util": "^0.12.2",
+    "lightningcss": "^1.30.2",
     "next": "16.1.1",
     "react": "19.2.3",
     "react-dom": "19.2.3"
