@@ -94,8 +94,8 @@ export default function Home() {
         "-i", inputPath,
         "-t", "1",
         "-c:v", "libx264",
-        "-preset", "ultrafast",
-        "-crf", "28",
+        "-preset", "medium",
+        "-crf", "18",
         "-pix_fmt", "yuv420p",
         "-vf", "scale='trunc(iw/2)*2:trunc(ih/2)*2'",
         outputPath
