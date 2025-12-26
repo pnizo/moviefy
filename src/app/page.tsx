@@ -134,6 +134,7 @@ export default function Home() {
             Moviefy
           </h1>
           <p className="text-text-muted text-lg">
+            画像を1秒間のH.264動画に変換します。<br />
             Convert any image to a 1-second H.264 video.
           </p>
         </header>
@@ -220,7 +221,8 @@ export default function Home() {
             <svg className="icon-sm" style={{ width: '16px', height: '16px', minWidth: '16px' }} fill="currentColor" viewBox="0 0 20 20">
               <path fillRule="evenodd" d="M2.166 4.999c0-1.657 1.343-3 3-3h9.668c1.657 0 3 1.343 3 3v10.001c0 1.657-1.343 3-3 3H5.166c-1.657 0-3-1.343-3-3V4.999zm3-1c-.552 0-1 .448-1 1v10.001c0 .552.448 1 1 1h9.668c.553 0 1-.448 1-1V4.999c0-.552-.447-1-1-1H5.166zM10 8a2 2 0 100-4 2 2 0 000 4zm2 5a2 2 0 11-4 0 2 2 0 014 0z" clipRule="evenodd" />
             </svg>
-            <span>Privacy Policy: Your images and videos are processed client-side and never stored on our servers.</span>
+            <span>画像および動画はすべてクライアント側で処理され、サーバーには一切保存されません。<br />
+              Your images and videos are processed client-side and never stored on our servers.</span>
           </p>
         </footer>
       </div>
