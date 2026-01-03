@@ -92,7 +92,7 @@ export default function Home() {
         ...(isGif ? [] : ["-f", "image2"]),
         "-loop", "1",
         "-i", inputPath,
-        "-t", "1",
+        "-t", "5",
         "-c:v", "libx264",
         "-preset", "medium",
         "-crf", "18",
@@ -134,8 +134,8 @@ export default function Home() {
             Moviefy
           </h1>
           <p className="text-text-muted text-lg">
-            画像を1秒間のH.264動画に変換します。<br />
-            Convert any image to a 1-second H.264 video.
+            画像を5秒間のH.264動画に変換します。<br />
+            Convert any image to a 5-second H.264 video.
           </p>
         </header>
 
